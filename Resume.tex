@@ -1,0 +1,248 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}       % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+\usepackage{fontawesome}  %add symbols of github, linkedin etc
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.88, bmargin=1cm,footnotesep=0cm, top=1.cm]{geometry}%
+%Add it inside [] to adjust size of bottom space
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+
+
+% ----------------------------------------------------------------------
+%                      Personal Details
+% ----------------------------------------------------------------------
+
+\name{Bhavesh Khamesra}{\\  \small{\textcolor{gray}{{%\normalfont{Data Scientist and  Astrophysicist} } }\vspace{5pt} }
+}}}}
+\phone[mobile]{(470) 535 3204}                   % optional, remove / comment the line if not wanted
+\email{bhavesh.khamesra@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{www.linkedin.com/in/bhaveshkhamesra}   
+ % optional, remove / comment the line if not wanted
+\extrainfo{github.com/bkhamesra \makeheaddetailssymbol Atlanta} %\faMapMarker{\;\;Atlanta}}
+ % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Data Scientist and Published Astrophysicist}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+
+%-----------------------------------------------------------------------
+%                   Content
+%-----------------------------------------------------------------------
+\begin{document}
+%\vspace*{-10mm}
+\makecvtitle
+\vspace*{-8mm}
+%-----------------------------------------------------------------------
+%                   Education
+%-----------------------------------------------------------------------
+
+\section{Education}
+
+\vspace{0pt}
+
+\begin{itemize}
+
+%\item{\cventry{August 2015: May 2021}{Ph.D. (Physics)}{Georgia Institute of Technology}{}{\textit{}}{}}
+\item{\cventry{}{CGPA - 3.94/4.0}{Ph.D. (Physics), Georgia Tech}{August 2015: May 2021}{\textit{}}{}}
+
+\vspace{1pt}
+% \textbf{Honors:} Dean's List (Winter 2016) , AngelHack 2016 1st Place and HackUCSC (2016) 3rd Place.
+% \\ \textbf{Related Coursework:} Software Engineering, Database Systems I, Artificial Intelligence, Introduction to Operating Systems, Mobile Applications and Web Applications.
+% \\ \textbf{Programming Languages:} JavaScript, Java, C,Python, SQL, HTML, CSS, Prolog, and OCaml.
+% \\ \textbf{Frameworks:} Node.js, Express.js, Angular.js, Android Studio, Google Analytics and Google AdWords
+
+\item{\cventry{}{CGPA - 9.0/10.0 (Dean's List)}{BS-MS Dual Degree, IISER Pune}{August 2009: May 2014}{\textit{}}{}}
+\vspace{1pt}
+ %\textbf{Honors:} Dean's List, KVPY Fellowship, DAAD-WISE Felloship.
+ %\\ \textbf{Related Coursework:} Software Engineering, Database Systems I, Artificial Intelligence, Introduction to Operating Systems, Mobile Applications and Web Applications.
+ %\\ \textbf{Programming Languages:} JavaScript, Java, C,Python, SQL, HTML, CSS, Prolog, and OCaml.
+ %\\ \textbf{Frameworks:} Node.js, Express.js, Angular.js, Android Studio, Google Analytics and Google AdWords
+\item{\cventry{}{Coursera Specialization}{SQL Basics for Data Science, UC Davis  }{March 2020: May 2020}{\textit{}}{}}
+\item{\cventry{}{Coursera Specialization}{Deep Learning Specialization  }{Jan 2021: Present}{\textit{}}{}}
+\vspace{1pt}
+\vspace{1pt}
+\end{itemize}
+ %-----------------------------------------------------------------------
+%                   Technical Skills
+%-----------------------------------------------------------------------
+
+\section{Technical Skills}
+\vspace{1pt}
+\small{
+\begin{itemize}
+%\item{Machine Learning – Supervised Learning (Random Forest, KNN, SVM, Naïve Bayes etc.), Deep Learning, Dimensionality Reduction Methods  (PCA, ICA, FFT), Reinforcement Learning (Monte Carlo)  }
+%\vspace{3pt}
+\item{ Programming Languages – Python (numpy, scipy, pandas, scikit-learn, Tensorflow), C++, SQL, Perl, Bash.} %HTML, MATLAB }
+\vspace{4pt}
+\item{Machine Learning - Random Forest, Neural Network, SVM, Naive Bayes, Linear and Logistic Regression,  PCA, ICA, FFT}
+\vspace{4pt}
+\item{Tools – Jupyter, Git, Latex, Databricks, Visit, Plotly, yt, PBS, Condor, OSG}
+\vspace{4pt}
+\item{Mathematical – Differential Equations, Linear Algebra, Multivariable Calculus, Statistics, Machine Learning Theory}\vspace{4pt}
+\item{Communication – Grant Proposals (XSEDE, $\sim \$700k$), Journal publications (15+), Conference Presentations and Public Talks (5+)}
+\end{itemize}
+}
+%-----------------------------------------------------------------------
+%                  Work Experience
+%-----------------------------------------------------------------------
+\section{Work Experience}
+
+\vspace{1pt}
+
+\begin{itemize}
+
+\item{\cventry{August 2021 - Present}{\textit{Statistical Analysis  and Machine Learning}}{\textbf{Research Fellow}}{UT Austin}{}
+{\vspace{4pt}
+%• Uncovered failures of existing models by identifying regions of parameter space where errors exceeded by $50\%$ using \textbf{statistical modeling} techniques (MCMC simulations).
+%\vspace{4pt}\\
+• Led a Bayesian inference study %to investigate the accuracy of current models of gravitational waves, 
+that uncovered regions in parameter space with inaccuracies $>60\%$  in the current models of gravitational waves using Markov chain Monte Carlo simulations. 
+\vspace{4pt}\\
+• Creating a deep learning model to predict the source of gravitational wave signals, initial results have accuracy of $>85\%$. }
+}
+\vspace{8pt}
+
+
+\item{\cventry{August 2016 - April 2021}{\textit{Modelling and Data Analytics }}{\textbf{Graduate Assistant}}{Georgia Tech}{}
+{
+\vspace{4pt}\\
+• Developed a new \textbf{mathematical framework} to solve differential equations which expanded the modeling capabilities and improved the performance of the Einstein Toolkit software and accomplished a key goal in a NSF grant worth $\mathbf{\$2}$\textbf{ million}. 
+\vspace{4pt}\\
+%• Contributed to a NSF grant worth $\mathbf{\$2}$\textbf{ million} by developing a new \textbf{initial data method} which expanded the modeling capabilities of astrophysical systems and improved the performance of the Maya software.
+%\vspace{4pt}\\
+• Contributed to 5+ collaborative projects as part of the LIGO scientific collaboration by performing relativistic hydrodynamical simulations of astrophysical systems on 4+ HPC clusters which led to \textbf{ peer-reviewed scientific publications}.
+\vspace{4pt}\\
+• Designed a new method to reduce the noise impact in simulations which improved the model efficiency by a factor of 10. 
+\vspace{4pt}\\
+• Developed a \textbf{data analysis} infrastructure to clean and transform raw simulation data (ASCII, ~2 GB) into a processed format (HDF5, ~25 MB) compatible with downstream pipelines, which led to contributions in  \textbf{$5+$ scientific publications}. 
+\vspace{4pt}\\ 
+• Created an open source \textbf{data visualization} pipeline in python (Plotly, yt and Matplotlib) to provide real time analysis of black hole simulations with capability to analyze >100 GB of data within a few minutes.}}
+%\vspace{3pt}• Developed a(n initial data) pipeline (Python, Perl and C++) to (solve partial differential equations and) optimize simulation configurations leading to threefold increase in runtime speeds.
+%\vspace{3pt}\\• Performed >100 large scale (relativistic hydrodynamical) simulations on 4+ HPC clusters to study astrophysical systems (using adaptive mesh refinement) leading to three scientific publications. 
+
+\vspace{8pt}
+
+
+\item{\cventry{August 2021 - Present}{\textit{Machine Learning}}{\textbf{Personal Projects}}{}{}
+{\vspace{4pt}
+• Developed a linear regression model (tensorflow) for warehouse rental price prediction with an average error $\sim 5\%$. 
+\vspace{4pt}\\
+• Increased the interpretability of deep learning model by analytically quantifying the effects of feature perturbation on  trained neural network. }
+}
+
+\vspace{1pt}
+
+\end{itemize}
+
+%-----------------------------------------------------------------------
+%                 Additional Projects
+%-----------------------------------------------------------------------
+%\section{Other Projects}
+%
+%\vspace{1pt}
+%
+%\begin{itemize}
+%%\item{Airbnb data analysis}
+%\item{Identified key features in the signals of sources by simulation %and analysis which could improve the current models and detections %methods. (add github link)}
+%\item{Estimated the statistical errors in parameters for given %gravitational wave model using Fisher Information method.}
+%\item{Benchmarked two softwares for relativistic hydrodynamical %simulations on 5 HPC clusters. }
+%\item{Taught introductory and advance physics courses including General %Relativity and Mathematical Methods }
+%\end{itemize}
+%-----------------------------------------------------------------------
+%                  Communication
+%-----------------------------------------------------------------------
+
+%\section{Communication}
+%\vspace{1pt}
+%\begin{itemize}
+%\item{Contributed to three computational grant proposals for XSEDE %supercomputing resources (worth 4.5 million SUs) and four NSF grant %proposals. }
+%\vspace{3pt}
+%\item{Participated in 10+ collaborative projects as part of LIGO %scientific collaboration for compact binary studies leading to %peer-reviewed scientific publications.  }
+%\vspace{3pt}
+%\item{Presented my work at scientific conferences and delivered public %talks to people of all age groups.}
+%\end{itemize}
+%\vspace{1pt}
+%-----------------------------------------------------------------------
+%                  Leadership
+%-----------------------------------------------------------------------
+
+\section{Leadership}
+\vspace{1pt}
+\small{
+\begin{itemize}
+\item{	Undergraduate Research Team Lead  (2018-2020) – Supervised 3 teams of students in various projects involving research and visualization. Led to one publication (+one in draft).  }
+\vspace{4pt}
+\item{	Einstein Toolkit (ET) Workshop Organizer (2018) – Core organizer of ET collaboration workshop with 30 participants from 10 different institutes across USA.  }
+\end{itemize}
+}
+\vspace{1pt}
+
+
+%-----------------------------------------------------------------------
+%                   Publications
+%-----------------------------------------------------------------------
+% Publications from a BibTeX file without multibib
+%  for numerical labels: 
+% \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): 
+%\renewcommand{\refname}{Articles}
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocite{*}
+%\bibliographystyle{abbrv}
+%\bibliography{publications.bib}                        % 'publications' is the name of a BibTeX file
+%\renewcommand{\refname}{Few Publications (Out of 19)}
+%%\renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+
+%\begin{thebibliography}{4}
+%\bibitem[1]{BK-Paper1 } 
+%$\,$ Bhavesh Khamesra, Miguel Gracia Linares, Pablo Laguna, %\textit{Black Hole - Neutron Star Binary Mergers: The Imprint of Tidal %Debris} (in draft - 2021).
+%\bibitem[2]{BK-Paper3 } 
+%$\,\,$  Christopher Evans and Deborah Ferguson and Bhavesh Khamesra and %Pablo Laguna and Deirdre Shoemaker,
+%\textit{Inside the final black hole: puncture and trapped surface %dynamics}, Class. Quantum Grav. 37 15LT02, 2020
+
+%\bibitem[3]{BK-Paper2 } 
+%$\,\,$ Kenny Higginbotham, Bhavesh Khamesra et.al.,
+%\textit{Coping with spurious radiation in binary black hole %simulations}. 
+%Phys. Rev. D 100, 081501, 2019.
+
+%\bibitem[4]{BK-Paper4 }
+%$\,\,$  Bhavesh Khamesra, Suneeta Vardarajan, \itextit{Stability %analysis of a class of anisotropic spacetimes}, Phys. Rev. D 90, 024044, %2014
+%\end{thebibliography}%-----       letter       ---------------------------------------------------------
+
+\end{document}
+
+
+%% end of file `template.tex'.
+
